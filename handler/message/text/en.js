@@ -1,73 +1,58 @@
-exports.textTnC = () => {
+exportações.textTnC = () => {
     return `
-Source code / bot is an open-source program (free) written using Javascript, you can use, copy, modify, combine, publish, distribute, sub-license, and or sell copies without removing the main author of the source code / bot.
-By using this source code / bot, you agree to the following Terms and Conditions:
-- Source code / bot does not store your data on our servers.
-- The source code / bot is not responsible for the stickers you make from this bot and the videos, images and other data that you get from the source code / bot.
-- Source code / bot may not be used for services that aim / contribute to:
-    • sex / human trafficking
-    • gambling
-    • harmful addictive behavior
+O código-fonte / bot é um programa de código aberto (gratuito) escrito em Javascript, você pode usar, copiar, modificar, combinar, publicar, distribuir, sublicenciar e / ou vender cópias sem remover o autor principal do código-fonte / bot .
+Ao usar este código-fonte / bot, você concorda com os seguintes Termos e Condições:
+- O código-fonte / bot não armazena seus dados em nossos servidores.
+- O código-fonte / bot não é responsável pelos stickers que você faz desse bot e pelos vídeos, imagens e outros dados que você obtém do código-fonte / bot.
+- O código-fonte / bot não pode ser usado para serviços que visam / contribuem para:
+    • sexo / tráfico humano
+    • jogos de azar
+    • comportamento viciante prejudicial
     • crime
-    • violence (unless necessary to protect public safety)
-    • burning forest/ deforestation
-    • hate speech or discrimination based on age, sex, gender identity, race, sexuality, religion, nationality
-
-Source Code BOT: https://github.com/YogaSakti/imageToSticker
-NodeJS WhatsApp library: https://github.com/open-wa/wa-automate-nodejs
-
-Best regards, Yoga Sakti.`
+    • violência (a menos que necessário para proteger a segurança pública)
+    • queima de floresta / desmatamento
+    • discurso de ódio ou discriminação com base na idade, sexo, identidade de gênero, raça, sexualidade, religião, nacionalidade
+Código-fonte BOT: https://github.com/YogaSakti/imageToSticker
+Biblioteca NodeJS WhatsApp: https://github.com/open-wa/wa-automate-nodejs
+Atenciosamente, Yoga Sakti.
 }
 
-exports.textMenu = (pushname) => {
+ports.textMenu = (pushname) => {
     return `
-Hi, ${pushname || ''}! 👋️
-Here are some of the features of this bot! ✨
-
-Sticker Maker:
-1. *#sticker*
-To convert an image into a sticker, send the image with the caption #sticker or reply to the image that has been sent with #sticker.
-
-2. *#stickers* _<Image Url>_
-To change the image from the url to a sticker.
-
-3. *#gifsticker* _<Giphy URL>_ / *#stickergif* _<Giphy URL>_
-To turn a gif into a sticker (Giphy only)
-
+Olá, $ {pushname || ''}! 👋️
+Aqui estão alguns dos recursos deste bot! ✨
+Fabricante de adesivos:
+1. * # adesivo *
+Para converter uma imagem em adesivo, envie a imagem com a legenda #sticker ou responda à imagem que foi enviada com #sticker.
+2. * # adesivos * _ <URL da imagem> _
+Para mudar a imagem do url para um adesivo.
+3. * # gifsticker * _ <Giphy URL> _ / * # stickergif * _ <Giphy URL> _
+Para transformar um GIF em um adesivo (somente Giphy)
 Downloader:
-1. *#tiktok* _<post / video url>_
-Will return video tiktok.
-
-2. *#fb* _<post / video url>_
-Will return the Facebook video download link.
-
-3. *#ig* _<post / video url>_
-Will return the Instagram video download link.
-
-4. *#twt* _<post / video url>_
-Will return the Twitter video download link.
-
+1. * # tiktok * _ <post / url do vídeo> _
+Retornará vídeo tiktok.
+2. * # fb * _ <url de postagem / vídeo> _
+Retornará o link de download de vídeo do Facebook.
+3. * # ig * _ <post / url do vídeo> _
+Retornará o link de download do vídeo do Instagram.
+4. * # twt * _ <url de postagem / vídeo> _
+Retornará o link de download de vídeo do Twitter.
 Etc:
-1. *#tnc*
-Displays Bot Terms and Conditions.
-
-Hope you have a great day!✨`
+1. * # tnc *
+Exibe os termos e condições do bot.
+Espero que você tenha um ótimo dia! ✨`
 }
 
-exports.textAdmin = () => {
+exportações.textAdmin = () => {
     return `
-⚠ [ *Admin Group Only* ] ⚠ 
-Here are some of the group admin features included in this bot!
-
-1. *#kick* @user
-Removing members from the group (can be more than 1).
-
-2. *#promote* @user
-Promote members to group admins.
-
-3. *#demote* @user
-Demote Group admins.
-
-3. *#tagall*
-Mention of all group members.`
+⚠ [* Grupo de administradores apenas *] ⚠
+Aqui estão alguns dos recursos de administração de grupo incluídos neste bot!
+1. * # kick * @user
+Removendo membros do grupo (pode ser mais de 1).
+2. * # promova * @user
+Promova membros para administradores do grupo.
+3. * # rebaixar * @user
+Rebaixar administradores de grupo.
+3. * # tagall *
+Menção de todos os membros do grupo.
 }
